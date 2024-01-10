@@ -1,1 +1,18 @@
 /* add your styles here */
+*{
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    gap: 5vw;
+    width: 80vw;
+    grid-template-columns: repeat(2, 40vw);
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+img{
+    width: 40vw;
+}
